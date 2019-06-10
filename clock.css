@@ -41,6 +41,7 @@ body {
   width: 50%;
   height: 6px;
   background: black;
+  border-radius: 10px;
   position: absolute;
   top: 50%;
   transform-origin: 100%;
@@ -49,6 +50,13 @@ body {
   transition-timing-function: cubic-bezier(0.4, 1.13, 0, 0.87);
 }
 
+.second-hand {
+  background-color: red;
+  height: 4px;
+}
+
 .hour-hand {
-  /* width: 40%; */
+  width: 40%;
+  height: 8px;
+  left: 10%;
 }
